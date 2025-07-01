@@ -17,7 +17,7 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 //--------------------[ SESSION ID ]----------------------//
 
-global.SESSION_ID = process.env.SESSION_ID || '' 
+global.SESSION_ID = process.env.SESSION_ID || 'jinwoo:~g2tTEDwC#h5Ty7WdpOnqJaHhbHjeGgcaCmwEfxqzz3sinzYUS4xM' 
 //Enter your Jinwoo session id here; must start with jinwoo:~
 
 //--------------------[ BOT NAME ]----------------------//
@@ -26,11 +26,11 @@ global.botname = process.env.BOT_NAME || 'ᴊɪɴᴡᴏᴏ-ʙᴏᴛ'
 
 //-----------------[ OWNER NUMBER ]------------------//
 
-global.ownernumber = process.env.OWNER_NUMBER || '263780166288' 
+global.ownernumber = process.env.OWNER_NUMBER || '2348154574139' 
 
 //--------------------[ SUDO ]--------------------------//
 
-global.sudo = process.env.SUDO ? process.env.SUDO.split(',') : ['263714757857', '263780934873'];
+global.sudo = process.env.SUDO ? process.env.SUDO.split(',') : ['2348154574139', '2348169546065'];
 // Type additional allowed users here
 //NB: They'll be able to use every functions of the bot without restrictions.
 
@@ -52,7 +52,7 @@ global.prefixz = process.env.BOT_PREFIX || '.'
 
 //-----------------[ BOT'S MODE ]-----------------------//
 
-global.mode = process.env.MODE || 'public';
+global.mode = process.env.MODE || 'private';
 // Set 'private' to enable private mode
 // Set 'public' to enable public mode
 // Set 'group' to enable only group
@@ -60,7 +60,7 @@ global.mode = process.env.MODE || 'public';
 
 //----------[ STATUS REACTION EMOJI ]--------------//
 
-global.statusemoji = process.env.STATUS_EMOJI || '🧡'
+global.statusemoji = process.env.STATUS_EMOJI || '🧡🙂🫠😂😁🚹🐝🥀💡😖🌚💕💋🎄💔🤭💞🥹🐥😗✝️✨🤤😪🤦🤨👀😑🔪😹😭☠️👁️🥲🫂🐦'
 
 //---------------[ AUTO VIEW STATUS ]---------------//
 
@@ -69,12 +69,12 @@ global.autoviewstatus = process.env.AUTO_STATUS_VIEW || 'true'
 
 //--------------[ AUTO REACT STATUS ]--------------//
 
-global.autoreactstatus = process.env.AUTO_STATUS_REACT || 'false'
+global.autoreactstatus = process.env.AUTO_STATUS_REACT || 'true'
 // set true to enable and false to disable auto status react
 
 //---------------[ ALWAYS ONLINE ]------------------//
 
-global.alwaysonline = process.env.ALWAYS_ONLINE || 'true'
+global.alwaysonline = process.env.ALWAYS_ONLINE || 'false'
 //Set true to make the bot online 24/7 or set false to disable always online
 
 
@@ -151,10 +151,10 @@ global.wm = process.env.GL_WM || "> ©Jinwoo bot"
 global.mess = { 
   done: '*Done*', 
   success: '> © ᴊɪɴᴡᴏᴏ ᴠ2.5', 
-  owner: `*You don't have permission to use this command!*`, 
+  owner: `*Your papa no get permission to use this command!*`, 
   group: '*This feature becomes available when you use it in a group!*', 
-  admin: '*You’ll unlock this feature with me as an admin!*', 
-  notadmin: '*This feature will work once you become an admin. A way of ensuring order!*' 
+  admin: '*You want me to tag? too bad negro!*', 
+  notadmin: '*it will work once you are admin sir . A way of ensuring order!*' 
 }
 
 //--------------------[ WATCHER ]-----------------------//
